@@ -1,0 +1,171 @@
+{
+  "project_info": {
+    "project_number": "303914763943",
+    "firebase_url": "https://tikatika-e3374.firebaseio.com",
+    "project_id": "tikatika-e3374",
+    "storage_bucket": "tikatika-e3374.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303914763943:android:75342877a47ea6ebfebd82",
+        "android_client_info": {
+          "package_name": "com.tikatika.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4Op3pL5RBpHRk8FBKyn28Wtg_L6mBm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303914763943-076j53niv1b4j7jmt417abq9nh358bhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tikatika.et.user"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303914763943:android:97a63919473d34c5febd82",
+        "android_client_info": {
+          "package_name": "com.tikatika.et.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4Op3pL5RBpHRk8FBKyn28Wtg_L6mBm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303914763943-076j53niv1b4j7jmt417abq9nh358bhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tikatika.et.user"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303914763943:android:ae613a62cef0ad4bfebd82",
+        "android_client_info": {
+          "package_name": "com.tikatika.et.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303914763943-61qdus6nlu224siceauaibvalralge23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tikatika.et.user",
+            "certificate_hash": "03b51bd318d7f68819d782d801dc620f1ee725ec"
+          }
+        },
+        {
+          "client_id": "303914763943-77ucfp0q02a97cdfk9do1u0b2j3pn350.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tikatika.et.user",
+            "certificate_hash": "803b5eeea90001ac7c9fc37014ac8421c812581a"
+          }
+        },
+        {
+          "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4Op3pL5RBpHRk8FBKyn28Wtg_L6mBm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303914763943-076j53niv1b4j7jmt417abq9nh358bhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tikatika.et.user"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303914763943:android:c9d69caf7fd617c6febd82",
+        "android_client_info": {
+          "package_name": "com.tikatika.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4Op3pL5RBpHRk8FBKyn28Wtg_L6mBm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303914763943-ct85dht5khd7pe3f244okd2mosli0sgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303914763943-076j53niv1b4j7jmt417abq9nh358bhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tikatika.et.user"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

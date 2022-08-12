@@ -1,0 +1,32 @@
+diff --git a/node_modules/react-native-actions-sheet/index.d.ts b/node_modules/react-native-actions-sheet/index.d.ts
+index c87a3c8..4ba5ba9 100644
+--- a/node_modules/react-native-actions-sheet/index.d.ts
++++ b/node_modules/react-native-actions-sheet/index.d.ts
+@@ -22,6 +22,7 @@ declare module "react-native-actions-sheet" {
+      export const removeHasReachedTopListener: (callback: () => void) => void
+ 
+      export type ActionSheetProps = {
++          topSpacing?: number
+           /**
+            * Animate the opening and closing of ActionSheet.
+       
+diff --git a/node_modules/react-native-actions-sheet/src/index.js b/node_modules/react-native-actions-sheet/src/index.js
+index dfa8fad..7c61444 100644
+--- a/node_modules/react-native-actions-sheet/src/index.js
++++ b/node_modules/react-native-actions-sheet/src/index.js
+@@ -458,12 +458,14 @@ export default class ActionSheet extends Component {
+         return;
+       }
+ 
++      const topSpacing = this.props.topSpacing || 0
++
+       UIManager.measure(
+         currentlyFocusedField,
+         (originX, originY, width, height, pageX, pageY) => {
+           const fieldHeight = height;
+           const fieldTop = pageY;
+-          const gap = windowHeight - keyboardHeight - (fieldTop + fieldHeight);
++          const gap = windowHeight - keyboardHeight - (fieldTop + fieldHeight) - topSpacing;
+           if (gap >= 0) {
+             return;
+           }

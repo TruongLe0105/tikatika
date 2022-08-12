@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "TikaUserET",
+    "slug": "tikatika-user-et",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.9",
+    "sdkVersion": "41.0.0",
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "bmd-solutions-9a",
+            "project": "tika-user-et",
+            "authToken": "a65ebea5dcf743a38b8e1ea8a3784beea348dede6ef64430b58b97f592084aee",
+            "distribution": "1.0.9"
+          }
+        }
+      ]
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["sentry-expo"]
+  }
+}

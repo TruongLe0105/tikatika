@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+  <string name="app_name">Tika Delivery</string>
+  <string name="appID">2192508082607904487</string>
+  <string name="facebook_app_id">1257096831454681</string>
+  <string name="fb_login_protocol_scheme">fb1257096831454681</string>
+
+</resources>

@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-navigation-heavy-screen/src/use-after-interactions.ts b/node_modules/react-navigation-heavy-screen/src/use-after-interactions.ts
+index d7ed279..b1d7b74 100644
+--- a/node_modules/react-navigation-heavy-screen/src/use-after-interactions.ts
++++ b/node_modules/react-navigation-heavy-screen/src/use-after-interactions.ts
+@@ -19,7 +19,12 @@ export const useAfterInteractions = () => {
+ 				subscriptionRef.current = null
+ 			}
+ 		)
++
++		const timeOut = setTimeout(() => {
++			setInteractionsComplete(true)
++		}, 5 * 1000);
+ 		return () => {
++			clearTimeout(timeOut)
+ 			subscriptionRef.current?.cancel()
+ 		}
+ 	}, [])

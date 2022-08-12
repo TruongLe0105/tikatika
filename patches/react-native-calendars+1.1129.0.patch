@@ -1,0 +1,34 @@
+diff --git a/node_modules/react-native-calendars/src/calendar/day/index.js b/node_modules/react-native-calendars/src/calendar/day/index.js
+index e005388..27ec3cf 100644
+--- a/node_modules/react-native-calendars/src/calendar/day/index.js
++++ b/node_modules/react-native-calendars/src/calendar/day/index.js
+@@ -79,7 +79,7 @@ export default class Day extends Component {
+   }
+ 
+   render() {
+-    const {day} = this.props;
++    const {day,state,marking,theme,onPress} = this.props;
+     const date = xdateToData(day);
+     const Component = this.getDayComponent();
+     const dayProps = extractComponentProps(Component, this.props);
+@@ -88,6 +88,10 @@ export default class Day extends Component {
+       <Component
+           {...dayProps}
+           date={date}
++          state={state}
++          marking={marking}
++          theme={theme}
++          onPress={onPress}
+           testID={`${SELECT_DATE_SLOT}-${date.dateString}`}
+           accessibilityLabel={this.getAccessibilityLabel(day)}
+         >
+diff --git a/node_modules/react-native-calendars/src/index.js b/node_modules/react-native-calendars/src/index.js
+index cafc817..c0e611d 100644
+--- a/node_modules/react-native-calendars/src/index.js
++++ b/node_modules/react-native-calendars/src/index.js
+@@ -8,3 +8,4 @@ export {default as CalendarProvider} from './expandableCalendar/calendarProvider
+ export {default as asCalendarConsumer} from './expandableCalendar/asCalendarConsumer';
+ export {default as WeekCalendar} from './expandableCalendar/weekCalendar';
+ export {default as LocaleConfig} from 'xdate';
++export { default as BasicDay} from './calendar/day/basic'
+\ No newline at end of file

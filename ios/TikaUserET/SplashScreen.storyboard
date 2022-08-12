@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXPO-VIEWCONTROLLER-1">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EXPO-SCENE-1">
+            <objects>
+                <viewController storyboardIdentifier="SplashScreenViewController" id="EXPO-VIEWCONTROLLER-1" sceneMemberID="viewController">
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EXPO-ContainerView" userLabel="ContainerView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="EXPO-SplashScreenBackground" userLabel="SplashScreenBackground">
+                                <rect key="frame" x="103.66666666666669" y="333.66666666666669" width="207" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EXPO-SplashScreenBackground" secondAttribute="height" multiplier="3:1" id="TpH-gN-5mX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rmq-lb-GrQ"/>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.42352941176470588" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="EXPO-SplashScreenBackground" firstAttribute="centerX" secondItem="Rmq-lb-GrQ" secondAttribute="centerX" id="jX2-Yb-6Cs"/>
+                            <constraint firstItem="EXPO-SplashScreenBackground" firstAttribute="centerY" secondItem="Rmq-lb-GrQ" secondAttribute="centerY" id="keR-AI-vFj"/>
+                            <constraint firstItem="EXPO-SplashScreenBackground" firstAttribute="width" secondItem="EXPO-ContainerView" secondAttribute="width" multiplier="1:2" id="pSS-9Q-dSD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EXPO-PLACEHOLDER-1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.625" y="129.4921875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="White" width="150" height="50"/>
+    </resources>
+</document>

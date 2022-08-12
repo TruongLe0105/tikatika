@@ -1,0 +1,1 @@
+expo publish --release-channel production-1.0
